@@ -1,19 +1,20 @@
 html{
-	height: 150%;
-	width: 100%;
-	font-family: Arial;
-	background-color: rgb(53, 131, 195);
+	width: 1000px;
+	height: 1500px;
+	background-image: url(file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/outerspace.jpg);
+	margin-left: 200px;
+}
+
+body{
+	height: 0px;
+	float: center;
+	color: white;
 }
 
 .earth{
 	background-image: url(file:///Users/melissagaines/Desktop/Web%20Devel%20100/ClimateChange/Pics/Earth.jpg);
 	background-size: 100%;
 }
-
-#body{
-	width: 50%;
-	height: 50%;
-	}
 
 #banner{
 	text-align: center;
@@ -25,103 +26,82 @@ html{
 	color: white;
 	}
 
-#nav{
-	background-color: white;
-	padding: 20px;
-	margin: 10px;
+ul {
 	text-align: center;
-	float: center;
-	padding-bottom: 5px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
-#container{
-margin-bottom: 10px;
-margin-left: 80px;
-margin-right: 10px;
-margin-top: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-top: 10px;
-text-align: center;
-float: center;
-width: 90%;
-border: 2px solid orange;
-}
-
-ul{
+li{
 	display: inline;
-	padding: 5px;
+	padding: 7px;
+	font-size: 20;
+}
+
+.container{
+	color: white;
+	width: 960px;
+	padding-right: 300px;
+	margin-left: 90px;
+	text-align: center;
+	padding-top: 10px;
+	font-color: white;
+	background-image: url(file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/outerspace.jpg);
 }
 
 #questions{
-	height: 100%;
-	border: 1px solid;
+	height: 70px;
 	text-align: center;
-	margin-left: 120px;
+	margin-left: 50px;
 	margin-right: 70px;
 	margin-bottom: 5px;
 }
 
-#body{
-	margin-left: 350px;
-	border: solid 1px;
-	text-align: center;
-	float: center;
-	width: 700px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+#myCarousel{
+	width: 900px;
+	height: 500px;
+	margin-left: 50px;
+	
+}
+
+.carousel-inner{
+	height: 500px;
+	background-color: black;
 
 }
-#para2{
-	border: solid 1px;
-	float: center;
-	width: 500px;
-	text-align: center;
-	margin-left: 550px;
-	margin-bottom: 10px;
-	margin-top: 0px;
+
+.item active{
+	height: 517p;
 }
+
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+      	width: 70%;
+      	margin: auto;
+    }
 
 #image{
 	width: 420px;
 	float: left;
 	margin-top: 10px;
 	margin-left: 20px;
+} 
 
+#pic1{
+	height: 500px;
+	margin-left: 45px;
 }
 
-#email{
-	width: 400px;
-	border: solid 2px;
-	padding: 20px;
-	text-align: left;
-	float: center;
-	margin-left: 600px;
-	text-transform: uppercase;
-}
-#legend{
-	border: 1px solid;
-	border-radius: 10px;
-	padding: 10px;
-	text-align: left;
-	text-transform: uppercase;
+#pic2{
+	margin-left: 150px;
+	height: 500px;
 }
 
-#name{
-	border: 1px solid;
-	margin: auto;
+#pic3{
+	width: 1000px;
+	height: 540px;
+	margin-left: 15px;
+	margin-right: 10px;
 }
-
-#email2{
-	border: 1px solid;
-	margin: auto;
-}
-
-#button{
-	text-align: left;
-	border: 1px solid;
-	border-top: 2px solid;
-	width:100px;
-}
-
+s
