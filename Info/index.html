@@ -3,6 +3,11 @@
 	<head>
 		<title>Global Warming</title>
 		<link rel="Stylesheet" href="style.css">
+		<script type="text/javascript" src="style.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	</head>
 	<div class="earth">
 	<div id="banner"><p><h1>Global Warming</h1></p>
@@ -10,23 +15,19 @@
 	</div>
 </div>
 		<ul>
-        <li><a href="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Info/index.html">Home<a></li>
-        <li><a href="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/index.html">Facts<a></li>
-        <li><a href="...">Contact</a></li>
+        <li><a href="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Info/index.html">Home</a></li>
+        <li><a href="...">Facts</a></li>
+        <li><a href="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/index.html">Questions/Comments<a></li>
        </ul>
 
 <body>
 		<div class="jumbotron">
  	 		<div id="jtron"><h1>We Need to Act Fast!</h1>
  			<p>Where would you go when Earth disappears?</p>
-			<p><a class="btn btn-primary btn-lg" href="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/index.html" role="button">Learn more</a></p></div>
+			<p><a class="btn btn-primary btn-lg" href="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/index.html" role="button">Learn More</a></p></div>
 		</div>
 
 		<div id="consensus"><h3>Consensus: 97% of climate scientists agree!</h3></div>
-		</div>
-
-		<div id="video">
-			<iframe width="600" height="400" src="https://www.youtube.com/embed/q3pqMGHGNKg" frameborder="0" allowfullscreen></iframe>
 		</div>
 
 		<div class="toppart">
@@ -35,8 +36,6 @@
 				<img src="file:///Users/melissagaines/Desktop/Web%20Devel%20100/ClimateChange/Pics/Temp%20Anomaly.jpeg"height="404px">
 			</div>
 			</div>
-
-			</p>
 			<p>
 				<div id="caption">Temperature data from four international science institutions. All show rapid warming in the past few decades and that the last decade has been the warmest on record.
 				</div>
@@ -46,8 +45,62 @@
 				Ninety-seven percent of climate scientists agree that climate-warming trends over the past century are very likely due to human activities,1and most of the leading scientific organizations worldwide have issued public statements endorsing this position. The following is a partial list of these organizations, along with links to their published statements and a selection of related resources.
 			</p>
 		</div>
+		<div id="quiz">
+			<h2> What century helped advance the mass effects of global warming?</h2>
+				<li><button onclick="wrong()">1800's
+			</button></li>
+			<li><button onclick="right()">
+				1700's
+			</button></li>
+			<li><button onclick="wrong()">
+				1600's
+			</button></li>
+			<li><button onclick="wrong()">
+				1900's
+			</button></li>
+			<h3>Learn why <a href="...">here</a></h3>
+		
+			<h2> True or False: There is more carbon dioxide in the atmosphere today than at any point in the last 800,000 years.</h2>
+				<li><button onclick="right()">True</button></li>
+				<li><button onclick="wrong()">False</button></li>
+			<h3>Learn why <a href="...">here</a></h3>
+		</div>
 
-			<body>
+	<div class="row">
+		<div class="col-sm-6 col-md-4">
+		<div class="thumbnail1">
+			<img src="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/gaurdian.jpeg" width= "250" height= "150" alt="para1">
+			<div class="caption">
+			<h3>Is It Real?</h3>
+			<p>Consensus and geoengineering - how to convince people about global warming.</p>
+			<p><button onclick="myFunction()"><a href="http://www.theguardian.com/environment/climate-consensus-97-per-cent/2015/mar/10/consensus-and-geoengineering-how-to-convince-people-about-global-warming" class="btn btn-primary" role="button">Article</a> <a href="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/index.html" class="btn btn-default" role="button">Facts</a></button></p>
+		</div>	
+		
+		<div id="video">
+			<iframe width="600" height="300" src="https://www.youtube.com/embed/q3pqMGHGNKg" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="thumbnail2">
+		<img src="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/quartz.jpg" width= "250" height= "150" alt="para2">
+		<div class="caption">
+		<h3>Future</h3>
+		<p>Global warming could hit rates unseen in 1000 years.</p>
+		<p><button onclick="myFunction()"><a href="http://qz.com/359620/global-warming-could-hit-rates-unseen-in-1000-years/" class="btn btn-primary" role="button">Articls</a> <a href="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/index.html" class="btn btn-default" role="button">Facts</a></button></p>
+		</div>
+	</div>
+	<div class="thumbnail3">
+		<img src="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/offical.jpg" width = "250" alt="para3">
+		<div class="caption">
+		<h3>The Big Ban</h3>
+		<p>Florida Officials Ban The Term "Climate Change".</p>
+		<p><button onclick="myFunction()"><a href="http://thinkprogress.org/climate/2015/03/08/3631198/florida-dep-bans-climate-change-investigation/" role="button">Article</a> <a href="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/index.html" class="btn btn-default" role="button">Facts</a></button></p>
+		</div>
+		
+	
+	</body>
+    	
+	<body>
+		
 			<div id="column1"><h4><b>Facts</b></h4>
 				<p>Want more facts? Click here!</p>
 			</div>
@@ -57,30 +110,8 @@
 				<p>Have any questions?</p> 
 				<p>Want to receieve weekly emails with more information about our planet? Click here<a href"..."><p></a>
 			</div>
+		</div>
 	</body>
-	<body>
-	<h1><div id="title2">More On Global Warming</div></h1>
-    		<br>
-    	<div id="para1">
-    	<p>
-		<img src="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/gaurdian.jpeg" width= "250" height= "150">
-    		<br>
-    		<button onclick="myFunction()"><a href="http://www.theguardian.com/environment/climate-consensus-97-per-cent/2015/mar/10/consensus-and-geoengineering-how-to-convince-people-about-global-warming"><h4>Consensus and geoengineering - how to convince people about global warming</h4></a></button>
-    	</p>
-    	</div>
-    	<div id="para2">
-    	<p>
-    		<img src = "file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/quartz.jpg" width= "250" height= "150">
-    		<br>
-    		<button onclick="myFunction()"><a href="http://qz.com/359620/global-warming-could-hit-rates-unseen-in-1000-years/"><h4>Global warming could hit rates unseen in 1000 years</h4></a></button>
-    	<p>
-    	</div>
-    	<div id="para3">
-    	<p>
-    		<img src="file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/offical.jpg" width= "250" height= "150">
-    		<br>
-    		<button onclick="myFunction()"><a href="http://thinkprogress.org/climate/2015/03/08/3631198/florida-dep-bans-climate-change-investigation/" ><h4>Florida Officials Ban The Term "Climate Change"</h4></a></button>
-    	</div>
-    	</div>
+
 	</body>
 </html>
