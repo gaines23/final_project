@@ -2,9 +2,10 @@ html{
 	height: 150%;
 	width: 1200px;
 	font-family: Arial;
-	background-color: rgb(53, 131, 195);
 	text-align: center;
+	color: white;
 	margin-left: 100px;
+	background-image: url(file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/outerspace.jpg);
 }
 
 
@@ -70,6 +71,7 @@ width: 90%;
 	margin-left: 105px;
 	margin-right: 70px;
 	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 #quote{
@@ -152,6 +154,7 @@ h4{
 	background-image: url(file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/smoke2.jpg);
 	background-size: 1500px;
 	background-position: center;
+	margin-top: 40px;
 }
 
 #jtron{
@@ -160,9 +163,8 @@ h4{
 
 
 #video{
-	
 	margin-left: 500px;
-	margin-top: 0px;
+	margin-top: 150px;
 	margin-bottom: 50px;
 
 }
