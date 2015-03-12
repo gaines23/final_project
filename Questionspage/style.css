@@ -8,7 +8,9 @@ html{
 body{
 	height: 0px;
 	float: center;
-	color: white;
+	font: white;
+	height: 1500px;
+	background-image: url(file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/outerspace.jpg);
 }
 
 .earth{
@@ -24,6 +26,7 @@ body{
 	width: 100%; 
 	margin: auto;
 	color: white;
+	margin-top: 50px;
 	}
 
 ul {
@@ -32,6 +35,8 @@ ul {
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
+	color: white;
+	border: solid 1px orange;
 }
 
 li{
@@ -40,18 +45,54 @@ li{
 	font-size: 20;
 }
 
+#P1{
+	margin-left: 75px;
+	float: center;
+}
+
+#P2{
+	margin-left: 80px;
+	float: center;
+}
+
+#P3{
+	margin-left: 0px;
+	float: center;
+}
+
+#q1{
+	color: white;
+	float: center;
+	width: 800px;
+	margin-left: 80px;
+}
+#q2{
+	color: white;
+	float: center;
+	width: 800px;
+	margin-left: 80px;
+}
+
+#q3{
+	color: white;
+	float: center;
+	width: 800px;
+	margin-left: 00px;
+}
+
 #container{
 	color: white;
-	width: 900px;
+	width: 850px;
 	height: 350px;
 	float: center;
 	text-align: center;
 	padding-top: 10px;
 	background-image: url(file:///Users/melissagaines/Desktop/Web%20Devel%20100/final/Questionspage/untitled%20folder/outerspace.jpg);
 	margin-right: 0px;
-	margin-left: 50px;
+	margin-left: 80px;
 	border: solid white 1px;
 	margin-top: 100px;
+	padding-left: 20px;
 }
 
 #questions{
@@ -87,7 +128,7 @@ li{
     }
 
 #image{
-	width: 420px;
+	width: 800px;
 	float: left;
 	margin-top: 10px;
 	margin-left: 20px;
@@ -127,20 +168,16 @@ li{
 	float: left;
 	width: 250px;
 	height: 250px;
-	margin-left: 80px;
+	margin-left: 30px;
 }
 
 #para3{
 	float: right;
 	width: 250px;
 	height: 200px;
+	margin-right: 20px;
 
 }
-
-p{
-	font: white;
-}
-
 
 
 

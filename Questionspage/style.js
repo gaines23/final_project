@@ -1,1 +1,4 @@
-alert("Click Here to Confirm");
+
+function myFunction(){
+	alert("You're Leaving The Page!");
+}
