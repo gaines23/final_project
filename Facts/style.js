@@ -1,4 +1,3 @@
-
 function show()
 {
 	if (document.getElementById)
