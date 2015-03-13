@@ -48,3 +48,20 @@ li{
 	text-align: left;
 }
 
+
+#blink{
+	text-align: right;
+	background-color: black;
+	color: red;
+	margin: 0;
+	padding: 20px;
+	float: right;
+	height: 15px;
+	margin-left: 200px;
+}
+
+#blink span{
+	font-size: 2em;
+	font-weight: bold;
+	display: block;
+

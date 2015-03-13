@@ -179,5 +179,43 @@ li{
 
 }
 
+#email{
+	width: 400px;
+	border: solid 2px;
+	padding: 20px;
+	text-align: left;
+	float: center;
+	margin-left: 200px;
+	text-transform: uppercase;
+}
+#legend{
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#name{
+	border: 1px solid;
+	margin: auto;
+}
+
+#email2{
+	border: 1px solid;
+	margin: auto;
+}
+
+#button{
+	text-align: left;
+	border: 1px solid;
+	border-top: 2px solid;
+	width:100px;
+}
+
+#email_questions{
+	margin-left: 250px;
+}
+
 
 
